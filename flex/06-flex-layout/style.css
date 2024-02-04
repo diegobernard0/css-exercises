@@ -25,3 +25,47 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* SOLUÇÃO */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee; 
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
